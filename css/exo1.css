@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    background-image: url(../media/formation-java-jee.webp);
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    text-decoration: none;
+
+}
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2 {
+    height: 60px;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+    background-image: url(../media/formation-java-jee.webp);
+    color: whitesmoke;
+    text-decoration: double;
+    border-top-color: whitesmoke;
+    border-bottom-color: whitesmoke;
+    border-left-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding-top: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+div {
+    margin: 50px;
+    padding: 50px;
+}
+
+#div1 {
+    background-color: #2c75ff;
+    width: 800px;
+    color: transparent;
+    border: 2px solid black;
+}
+#div2 {
+    background-color: goldenrod;
+    width: 600px;
+    border: 2px solid black;
+
+}
+#div3 {
+    background-color: rgb(20, 162, 108);
+    width: 400px;
+    border: 2px solid black;
+
+
+}
