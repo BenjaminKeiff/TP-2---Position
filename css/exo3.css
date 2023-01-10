@@ -72,8 +72,49 @@ div {
     height: 50px;
     border: 2px solid black;
     position: absolute;
-    margin-top: 230px;
-    margin-left: 160px;
+    top: 700px;
+    left: 300px;
+}
 
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 55px;
+
+}
+button {
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    z-index: 10;
+    background-color: #111111;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}
+
+#espaceur {
+    height: 100px;
+    color: transparent;
 }

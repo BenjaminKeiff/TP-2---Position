@@ -59,7 +59,7 @@ nav ul {
     list-style-type:none;
     padding:0;
     margin: 0;
-    margin-left: 10px;
+    left: 10px;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -107,4 +107,41 @@ nav ul li a:hover {
     margin-left: 500px;
     margin-top: -220px;
     text-align: justify;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 55px;
+
+}
+button {
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    z-index: 10;
+    background-color: #111111;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
 }

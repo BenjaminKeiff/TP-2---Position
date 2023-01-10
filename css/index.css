@@ -1,8 +1,14 @@
 body {
     background-color: rgb(237, 237, 237);
 }
-
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 h1 {
+    width: 100%;
+    margin: 0;
     font-weight: 900;
     text-align: center;
     font-size: 60px;
@@ -12,6 +18,7 @@ h1 {
     color: whitesmoke;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
+  
 
 }
 h1 a {
@@ -50,7 +57,8 @@ nav ul {
     list-style-type:none;
     padding:20px;
     margin: 20px;
-    margin-left: 170px;
+    left: 50px;
+    position: relative;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -91,4 +99,42 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 500px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 55px;
+
+}
+button {
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    z-index: 10;
+    background-color: #111111;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
 }

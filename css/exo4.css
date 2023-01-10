@@ -59,7 +59,8 @@ div {
     color: transparent;
     border: 2px solid black;
     position: absolute;
-    margin: 270px;
+    top: 500px;
+    left: 300px;
 }
 
 #div2 {
@@ -74,14 +75,58 @@ div {
     height: 50px;
     border: 2px solid black;
     position: absolute;
-    margin-top: 230px;
-    margin-left: 260px;
+    top: 350px;
+    left: 400px;
 }
 
 #div4 {
     width: 800px;
     background-color: paleturquoise;
     border: 2px solid black;
-    margin-top: -710px;
-    margin-left: -690px;
+    position: absolute;
+    top: -600px;
+    left: -650px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 55px;
+
+}
+button {
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    z-index: 10;
+    background-color: #111111;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}
+
+#espaceur {
+    height: 700px;
+    color: transparent;
 }

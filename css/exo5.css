@@ -47,11 +47,12 @@ h2 {
     margin-top: 0;
     text-transform: uppercase;
 }
-/* 
-div {
-    margin: 50px;
-    padding: 50px;
-} */
+
+h3 {
+    font-size: x-large;
+    margin-left: 340px;
+    text-decoration: underline #111111;
+}
 
 #div1 {
     background-color: #2c75ff;
@@ -59,8 +60,7 @@ div {
     height: 800px;
     color: transparent;
     border: 2px solid black;
-    position: absolute;
-
+    position: relative;
 }
 
 #div2 {
@@ -70,8 +70,8 @@ div {
     color: transparent;
     border: 2px solid black;
     position: relative;
-    margin-top: 50px;
-    margin-left: 50px;
+    top: 45px;
+    left: 65px;
 }
 
 #div3 {
@@ -81,8 +81,8 @@ div {
     color: transparent;
     border: 2px solid black;
     position: relative;
-    margin-top: -20px;
-    margin-left: 390px;
+    top: -20px;
+    left: 370px;
 }
 
 #div4 {
@@ -92,8 +92,8 @@ div {
     color: transparent;
     border: 2px solid black;
     position: relative;
-    margin-top: 350px;
-    margin-left: 0;
+    top: 350px;
+    left: 0;
 }
 
 #div5 {
@@ -103,6 +103,102 @@ div {
     color: transparent;
     border: 2px solid black;
     position: relative;
-    margin-top: -20px;
-    margin-left: -395px;
+    top: -20px;
+    left: -375px;
+}
+
+#div6 {
+    background-color: #2c75ff;
+    width: 800px;
+    height: 800px;
+    color: transparent;
+    border: 2px solid black;
+    position: absolute;
+}
+
+#div7 {
+    background-color: goldenrod;
+    width: 300px;
+    height: 300px;
+    color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    top: 55px;
+    left: 65px;
+}
+
+#div8 {
+    background-color: rgb(20, 162, 108);;
+    width: 300px;
+    height: 300px;
+    color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    top: -00px;
+    left: 370px;
+}
+
+#div9 {
+    background-color: paleturquoise;
+    width: 300px;
+    height: 300px;
+    color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    top: 365px;
+    left: 0;
+}
+
+#div10 {
+    background-color: palevioletred;
+    width: 300px;
+    height: 300px;
+    color: transparent;
+    border: 2px solid black;
+    position: absolute;
+    top: 0px;
+    left: -375px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 55px;
+
+}
+button {
+    text-decoration: none;
+    color: whitesmoke;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    z-index: 10;
+    background-color: #111111;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    z-index: 10;
+}
+
+#espaceur {
+    height: 900px;
+    color: transparent;
 }
